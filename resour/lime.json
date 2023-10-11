@@ -1,0 +1,170 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "To search the Product for Men",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1813851700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Clicks url \"https://www.limeroad.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.limeroad.com/\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.StepDefinition.Step_Definition.user_clicks_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 631922800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click login",
+            "match": {
+              "location": "com.StepDefinition.Step_Definition.user_click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 671916000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter MobileNumber \"7010019049\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7010019049\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.StepDefinition.Step_Definition.user_enter_mobileNumber(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138984100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click next",
+            "match": {
+              "location": "com.StepDefinition.Step_Definition.user_click_next()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 242971200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Mouseover on Men",
+            "match": {
+              "location": "com.StepDefinition.Step_Definition.user_mouseover_on_men()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 328958400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User picks Suit Blazer",
+            "match": {
+              "location": "com.StepDefinition.Step_Definition.user_picks_suit_blazer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 975880600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User selects wished item",
+            "match": {
+              "location": "com.StepDefinition.Step_Definition.user_selects_wished_item()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-02T09:28:47.289Z",
+        "line": 15,
+        "name": "Shop the Product and Add to Cart",
+        "description": "",
+        "id": "lime-road-order;shop-the-product-and-add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 717912400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User select Large size of the Suit Blazer",
+            "match": {
+              "location": "com.StepDefinition.Step_Definition.user_select_large_size_of_the_suit_blazer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 207972300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click on Add to cart",
+            "match": {
+              "location": "com.StepDefinition.Step_Definition.user_click_on_add_to_cart()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@TC001"
+          }
+        ]
+      }
+    ],
+    "name": "Lime-Road order",
+    "description": "",
+    "id": "lime-road-order",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/feature/lime.feature",
+    "tags": [
+      {
+        "name": "@SmokeTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
